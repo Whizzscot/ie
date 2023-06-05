@@ -1,0 +1,63 @@
+:root{
+    font-size:25px;
+}
+
+
+.game-board{
+    z-index:2;
+    display:grid;
+    position:relative;
+    /* width:10rem;
+    height:10rem; */
+    gap:0px;
+    grid-template:repeat(auto-fill, 1rem) / repeat(auto-fill, 1rem);
+}
+
+
+div{
+    border:1px solid black;
+}
+
+
+
+.game-object{
+    z-index:1;
+}
+
+.game-object[interactable]{
+    z-index:10;
+}
+
+.game-object[hidden]{
+    display:none;
+}
+
+.indicator{
+    opacity: 0.5;
+    z-index: 11;
+}
+
+.region{
+    display:contents;
+}
+
+.entity{
+    
+}
+
+.entity-display{position:absolute;
+    top:0px;
+    left:0px;
+    width:1rem;
+    height:1rem;
+    background-color: black;
+    border:none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.shield{
+
+}
