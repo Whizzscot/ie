@@ -61,6 +61,7 @@ div{
     width:1rem;
     height:1rem;
     background-color: red;
+    z-index: 2;
     border:none;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
