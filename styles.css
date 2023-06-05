@@ -1,7 +1,17 @@
 :root{
-    font-size:25px;
+    font-size:4vmin;
 }
 
+html{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  display: grid;
+  place-items: center;
+  margin-top:10px;
+}
 
 .game-board{
     z-index:2;

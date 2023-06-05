@@ -1,5 +1,5 @@
-let width = 50;
-let height = 25;
+let width = 24;
+let height = 24;
 
 document.body.querySelector('.game-board').style.width = `${width}rem`;
 document.body.querySelector('.game-board').style.height = `${height}rem`;
@@ -26,4 +26,4 @@ function Tick(){
     if(y > height) y -= (y-height)*2;
 }
 
-window.setInterval(Tick, 100);
+window.setInterval(Tick, 1000);
